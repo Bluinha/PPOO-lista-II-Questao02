@@ -18,17 +18,8 @@ public class Light {
         System.out.println(local + ": Luz apagada.");
     }
 
-    public void setIntensity(int intensidade) {
-        this.intensidade = intensidade;
-        System.out.println(local + ": Intensidade da luz ajustada para " + intensidade + "%");
-    }
-
     boolean isLigada() {
         return ligada;
-    }
-
-    public int getIntensidade() {
-        return intensidade;
     }
 
     public String getLocal() {
