@@ -29,7 +29,6 @@ public class TV {
         System.out.println(local + ": TV ajustando volume para " + volume);
     }
 
-    // getters para serem usados por comandos durante o store()
     public boolean isLigada() {
         return ligada;
     }
